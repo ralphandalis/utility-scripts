@@ -11,5 +11,6 @@ cd "$dir"
 echo -e "Type the following command in the open terminal: "
 echo -e "COMMAND: 'ssh root@localhost -p 2222'"
 open -a Terminal $dir
+
  # && `bash run_script.sh`
 python tcprelay.py -t 22:2222
